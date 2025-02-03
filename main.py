@@ -3,7 +3,7 @@ import telebot
 from telebot.types import InlineKeyboardMarkup as mk
 from telebot.types import InlineKeyboardButton as btn
 
-tok = "7868827627:AAEUd9DdKLOFbVNVfkrX44xRTy_UlN6lZvk"
+tok = ""#Token
 s1 = telebot.TeleBot(tok)
 
 @s1.message_handler(commands=["start"])
